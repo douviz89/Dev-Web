@@ -264,7 +264,50 @@ ul, ol {
     margin-top: 10px;
 }
 
+/* PORTFOLIO */
+#portfolio {
+    background: #d82c2e;
+}
 
+#portfolio .heading h2 {
+    color: #fff;
+}
 
+#portfolio .img-thumbnail {
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#portfolio .img-thumbnail:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.top-buffer div {
+    margin-bottom: 20px;
+}
+
+/* RECOMMANDATIONS */
+#recommandations {
+    background: #fff;
+}
+
+#recommandations .heading h2 {
+    color: #d82c2e;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d82c2e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d82c2e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-inner {
+    background-color: royalblue;
+}
 
 
