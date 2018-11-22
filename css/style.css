@@ -1,6 +1,6 @@
 /* GENERAL */
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
 }
 
 body {
@@ -49,6 +49,46 @@ section .heading h2 {
 ul, ol {
     list-style: none;
 }
+
+/* MENU */
+.navbar {
+    background: #d82c2e !important;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar li a {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .nav-pills .nav-link.active {
+    color: #d82c2e !important;
+    background-color: #fff;
+}
+
+.navbar .navbar-toggler {
+    border-style: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+
+
 
 /* ABOUT */
 
@@ -354,4 +394,6 @@ footer h5 {
     color: #fff;
     font-weight: normal;
 }
+
+
 
