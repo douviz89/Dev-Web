@@ -1,4 +1,7 @@
 /* GENERAL */
+html {
+    scroll-behavior: smooth
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -306,8 +309,49 @@ ul, ol {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d82c2e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-.carousel-inner {
-    background-color: royalblue;
+.carousel-indicators {
+    bottom: 0px;
 }
 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid#d82c2e;
+}
+
+.carousel-indicators li.active {
+    background-color: #d82c2e; 
+}
+
+.carousel-item {
+    padding: 40px 30px;
+}
+
+.carousel-item h3 {
+    color: #d82c2e;
+    font-style: italic;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    padding: 20px 0 40px;
+}
+
+footer .fa-chevron-up {
+    font-size: 25px;
+    margin: 20px;
+    color: #d82c2e;
+    height: 30px;
+}
+
+footer .fa-chevron-up:hover {
+    font-size: 28px;
+}
+
+footer h5 {
+    color: #fff;
+    font-weight: normal;
+}
 
