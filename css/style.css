@@ -256,12 +256,17 @@ ul, ol {
 } 
 
 .timeline-heading h3 {
+    color: #d82c2e;
     margin-top: 5px;
     font-size: 20px;
 }
 
 .timeline-heading h4 {
-    color: #d82c2e;
+    font-size: 18px;
+}
+
+.timeline-body {
+    line-height: 1;
 }
  
 /* EDUCATION */
